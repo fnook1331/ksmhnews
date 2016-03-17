@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>News</title>
+    <style>
+    nav li {
+    padding-right: 10px;
+    }
+    </style>
+    
+    <link href="stylesheets/general.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+	<link href="css/half-slider.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <img src="http://i1078.photobucket.com/albums/w500/ksmhnews/11049512_735282239917589_3428934561821616142_n_zpse6fsuzsc.jpg" alt="logo" align=left align=top length="120" width="90"/>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" align="center">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                
+                <center>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                	<li>
+                		<h3><%= link_to " Home ", welcome_homepage_path %></h3> 
+                	</li>	
+					<li>
+                        <h3><%= link_to " News ", news_subpage_path %></h3> 
+                    	
+                    </li>
+                   <!-- <li>
+                    	
+                        <h3><%= link_to " About ", about_subpage_path %></h3> 
+                    	
+                    	
+                    </li>
+                    <li>
+                        <h3><%= link_to " Social ", social_subpage_path %></h3> 
+                    </li> -->
+                    </center>
+                </ul>
+            </div>
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" >
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">News
+                </h1>
+            </div>
+        </div>
+        <center>
+        <image src="http://i1078.photobucket.com/albums/w500/ksmhnews/c3_zps9zlklwgi.jpg" alt="keith emerson"/>
+        <h2><%= link_to "Keith Emerson Dies at age 71", story1_subpage_path %></h2>
+        </center>
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Other News:</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <h3><%= link_to "Mental Health Advocacy Day", story2_subpage_path %><h3>
+                    <img class="img-responsive portfolio-item" src="http://i1078.photobucket.com/albums/w500/ksmhnews/c1_zps1l40adfp.jpg" alt="State Capitol Building">
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <h3><%= link_to "Editorial: Mental Health Funding", story3_subpage_path%></h3>
+                    <img class="img-responsive portfolio-item" src="http://i1078.photobucket.com/albums/w500/ksmhnews/c2_zpst31p6ixe.jpg" alt="Mental Health">
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; KSMH News/Adam Denton 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
